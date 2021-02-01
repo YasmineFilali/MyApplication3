@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+<EditText
+    android:id="@+id/nom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="nom"/>
+
+<EditText
+android:id="@+id/prenom"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+    android:text="prenom"/>
+
+<EditText
+android:id="@+id/age"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+    android:text="age"/>
+
+<EditText
+android:id="@+id/domaine"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+    android:text="domaine"/>
+
+<EditText
+android:id="@+id/num"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+    android:text="num"/>
+
+<Button
+android:id="@+id/button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:backgroundTint="@android:color/holo_blue_light"
+android:text="Valider" />
+
+
+    </LinearLayout>
